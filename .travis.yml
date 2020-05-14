@@ -8,8 +8,10 @@
 
 dist: bionic
 language: go
-
-
+arch:
+    - amd64
+    - arm64
+    
 branches:
   only:
   - master
